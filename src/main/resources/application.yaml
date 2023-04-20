@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: ROOT
+    url: jdbc:mysql://localhost:3306/db_graduation_management?serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=false&failOverReadOnly=false&useOldAliasMetadataBehavior=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
